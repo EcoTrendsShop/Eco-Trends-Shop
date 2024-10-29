@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrends Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EcoTrends Shop</h1>
+        <h2>Descubre el Futuro Sostenible</h2>
+        <nav>
+            <ul>
+                <li><a href="#tienda">Tienda</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="tienda">
+        <h2>Nuestra Tienda de Productos Ecológicos</h2>
+        <div class="producto">
+            <h3>Botella de Agua Reutilizable</h3>
+            <p>Botella de acero inoxidable, libre de BPA, ideal para mantener tus bebidas frías y calientes.</p>
+            <p>Precio: $15.00</p>
+            <button>Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="sobre-nosotros">
+        <h2>Acerca de EcoTrends Shop</h2>
+        <p>En EcoTrends Shop, creemos que cada pequeño cambio puede tener un gran impacto en nuestro planeta...</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog de EcoTrends</h2>
+        <article>
+            <h3>5 Consejos para Reducir tu Huella de Carbono</h3>
+            <p>Contenido del artículo...</p>
+        </article>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Email: contacto@ecotrendsshop.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EcoTrends Shop. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
